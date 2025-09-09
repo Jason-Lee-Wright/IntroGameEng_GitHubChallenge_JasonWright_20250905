@@ -132,7 +132,7 @@ GameObject:
   - component: {fileID: 252747096}
   - component: {fileID: 252747095}
   m_Layer: 0
-  m_Name: Sphere
+  m_Name: Right Eye
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -150,7 +150,8 @@ Transform:
   m_LocalPosition: {x: 0.25, y: 0.3, z: 0.5}
   m_LocalScale: {x: 0.3, y: 0.3, z: 0.3}
   m_ConstrainProportionsScale: 1
-  m_Children: []
+  m_Children:
+  - {fileID: 851273283}
   m_Father: {fileID: 763013256}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!135 &252747095
@@ -592,9 +593,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 252747094}
-  - {fileID: 851273283}
   - {fileID: 1622943862}
-  - {fileID: 1266070495}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &832575517
@@ -659,7 +658,7 @@ GameObject:
   - component: {fileID: 851273285}
   - component: {fileID: 851273284}
   m_Layer: 0
-  m_Name: Sphere (2)
+  m_Name: Pupil R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -673,12 +672,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 851273282}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.25, y: 0.3, z: 0.63}
-  m_LocalScale: {x: 0.099999994, y: 0.099999994, z: 0.099999994}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0.4333333}
+  m_LocalScale: {x: 0.3333333, y: 0.3333333, z: 0.3333333}
   m_ConstrainProportionsScale: 1
   m_Children: []
-  m_Father: {fileID: 763013256}
+  m_Father: {fileID: 252747094}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!135 &851273284
 SphereCollider:
@@ -767,7 +766,7 @@ GameObject:
   - component: {fileID: 1266070497}
   - component: {fileID: 1266070496}
   m_Layer: 0
-  m_Name: Sphere (3)
+  m_Name: Pupil L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -781,12 +780,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1266070494}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.25, y: 0.3, z: 0.63}
-  m_LocalScale: {x: 0.099999994, y: 0.099999994, z: 0.099999994}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0.4333333}
+  m_LocalScale: {x: 0.3333333, y: 0.3333333, z: 0.3333333}
   m_ConstrainProportionsScale: 1
   m_Children: []
-  m_Father: {fileID: 763013256}
+  m_Father: {fileID: 1622943862}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!135 &1266070496
 SphereCollider:
@@ -875,7 +874,7 @@ GameObject:
   - component: {fileID: 1622943864}
   - component: {fileID: 1622943863}
   m_Layer: 0
-  m_Name: Sphere (1)
+  m_Name: Left Eye
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -893,7 +892,8 @@ Transform:
   m_LocalPosition: {x: -0.25, y: 0.3, z: 0.5}
   m_LocalScale: {x: 0.3, y: 0.3, z: 0.3}
   m_ConstrainProportionsScale: 1
-  m_Children: []
+  m_Children:
+  - {fileID: 1266070495}
   m_Father: {fileID: 763013256}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!135 &1622943863
